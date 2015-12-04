@@ -4,7 +4,7 @@ body {
   background-color: white;
   background-size: cover;
   background-position: center;
-  color: black;
+  color: white;
   font-family: calibri;
 }
 
@@ -28,5 +28,5 @@ li {
 }
 
 .welcome_header {
-  color: black;
+  color: #FF0000;
 }
