@@ -1,0 +1,122 @@
+
+/*** General Formatting Reset ***/
+
+* {
+    margin: 0;
+    padding: 0; }
+
+
+/*** Fonts ***/
+
+@font-face {
+    font-family: 'Genericons';
+    src: url('fonts/Genericons.woff');
+}
+
+@font-face {
+    font-family: 'Futura-Book';
+    src: url('fonts/Futura-Book.ttf');
+}
+
+@font-face {
+    font-family: 'Bitter-Bold';
+    src: url('fonts/Bitter-Bold.otf');
+}
+
+/*** General Elements ***/
+
+#header {
+    text-align: center;
+    box-shadow: 0px 3px 15px 0px #DDDDDD;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+#header .headerLink {
+    display: inline-block;
+    font-family: 'futura-book', sans-serif;
+    font-size: 12px;
+    padding: 15px 30px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#header .headerLink:hover {
+    color: #1a44de;
+    cursor: pointer;
+}
+
+#headerSpacer {
+    height: 60px;
+    width: 100%;
+}
+
+#mainImageContainer {
+    width: 100%;
+    text-align: center;
+}
+
+#mainImageContainer img {
+    width: 25%;
+    margin: 25px 10px 10px 10px;
+}
+
+#footer {
+    text-align: center;
+    background: #EFEFEF;
+    font-family: 'futura-book', sans-serif;
+    color: #999999;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 12px;
+}
+
+#footerSpacer {
+    height: 60px;
+    width: 100%;
+}
+
+.pageTitle {
+    font-family: 'bitter-bold', sans-serif;
+    font-size: 48px;
+    line-height: 60px;
+    padding: 25px;
+    text-align: center;
+}
+
+.paragraph {
+    font-family: 'futura-book', sans-serif;
+    font-size: 16px;
+    width: 800px;
+    padding: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centered {
+    text-align: center;
+}
+
+.blogPost {
+    font-family: 'futura-book', sans-serif;
+    font-size: 16px;
+    width: 800px;
+    padding: 25px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blogTitle {
+    font-size: 30px;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+
+.blogDate {
+    color: #999999;
+    padding: 3px 0;
+}
