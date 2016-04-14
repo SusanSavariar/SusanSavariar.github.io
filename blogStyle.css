@@ -1,0 +1,32 @@
+
+.centered {
+    text-align: center;
+}
+
+.blogPost {
+    font-family: "ABeeZee", sans-serif;
+    font-size: 16px;
+    width: 800px;
+    padding: 25px 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.blogTitle {
+    font-family: "ABeeZee", sans-serif;
+    font-size: 26px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.blogDate {
+    color: #999999;
+    padding: 3px 0;
+}
+
+.blogImage {
+    width: 100%;
+    padding: 3px 0;
+}
+
