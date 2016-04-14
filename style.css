@@ -19,25 +19,25 @@
 #quad1{
   left: 0;
   top: 0;
-  background-color: #2D3142;
+  background-color: #07E8E0;
   color: #FFFFFF;
 }
 #quad2{
   right: 0;
   top: 0;
-  background-color: #EB98B2;
+  background-color: #40D4FF;
   /*#EF8354;*/
 }
 #quad3{
   left: 0;
   bottom: 0;
-  background-color: #DEDEDE;
+  background-color: #3369FF;
   /*#BFC0C0;*/
 }
 #quad4{
   right: 0;
   bottom: 0;
-  background-color: #4D3A4F;
+  background-color: #33FFC0;
   /*#625164;*/
   /*#4F5D75;*/
   color: #FFFFFF;
