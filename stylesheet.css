@@ -42,14 +42,14 @@
 
 #quad1 .button:hover,
 #quad4 .button:hover{
-  background:white;
+  background:black;
   color: black;
 }
 
 #quad2 .button:hover,
 #quad3 .button:hover{
   background:black;
-  color: white;
+  color: black;
 }
 
 
