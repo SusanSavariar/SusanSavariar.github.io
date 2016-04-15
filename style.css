@@ -20,7 +20,7 @@
   left: 0;
   top: 0;
   background-color: #07E8E0;
-  color: #FFFFFF;
+  color: #000000;
 }
 #quad2{
   right: 0;
@@ -40,7 +40,7 @@
   background-color: #33FFC0;
   /*#625164;*/
   /*#4F5D75;*/
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .menuContent {
