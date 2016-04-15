@@ -15,31 +15,33 @@
   height: 50vh;
   z-index: 1;
   text-align: center;
+  overflow: scroll;
 }
 #quad1{
   left: 0;
   top: 0;
-  background-color: #07E8E0;
+  background-color: #8CE5FF;
+  /*#07E8E0;*/
   color: #000000;
 }
 #quad2{
   right: 0;
   top: 0;
-  background-color: #40D4FF;
+  background-color: #33AACC;
   /*#EF8354;*/
 }
 #quad3{
   left: 0;
   bottom: 0;
-  background-color: #3369FF;
-  /*#BFC0C0;*/
+  background-color: #008FCC;
+  #3369FF;
+
 }
 #quad4{
   right: 0;
   bottom: 0;
-  background-color: #33FFC0;
-  /*#625164;*/
-  /*#4F5D75;*/
+  background-color: #40D4FF;
+  /*#33FFC0;*/
   color: #000000;
 }
 
@@ -62,7 +64,10 @@
 
 .pageContent {
   display: none;
-  overflow: scroll;
-  height: 100%;
   width: 100%;
+  background-color: #FDFDFD;
+  width: 900px;
+  margin: 60px auto;
+  padding:40px;
+  box-shadow: 0 0 1em #c7c0c0;
 }
