@@ -1,0 +1,82 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(to left, #f9f6f2 , #d9d0ec);
+}
+/*#e6e2f0*/
+
+#container {
+  width: 400px;
+  margin: 100px auto;
+  background: #EAC8F5;
+  box-shadow: 0 0 3px rgba(96, 0, 127, 0.2);
+}
+
+h1 {
+  background: #69359C;
+  color: white;
+  margin: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.fa-chevron-circle-down {
+  float: right;
+}
+
+input {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  background: #d6c9f2;
+  width: 100%;
+  padding: 10px 10px 10px 20px;
+  box-sizing: border-box;
+  color: #430059;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+input:focus{
+  background: #FFFFFF;
+  border: 3px solid #430059;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  background: #9370DB;
+  height: 40px;
+  line-height: 40px;
+  color: #430059;
+  font-weight: 200;
+}
+
+li:nth-child(2n){
+  background: #d6c9f2;
+}
+
+span {
+  background: #C0004C;
+  height: 40px;
+  margin-right: 20px;
+  text-align: center;
+  color: white;
+  width: 0px;
+  display: inline-block;
+  transition: 0.2s linear;
+  opacity: 0;
+}
+
+li:hover span {
+  width: 40px;
+  opacity: 1;
+}
+
+.completed {
+  color: #000000;
+  text-decoration: line-through;
+}
