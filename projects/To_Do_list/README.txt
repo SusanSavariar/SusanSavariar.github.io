@@ -1,3 +1,2 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/DeanneCalifornia/pen/qZoPBj.
+Adaptation of assignment from General Assembly's Front End Development Course.
 
- 
