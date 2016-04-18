@@ -1,6 +1,7 @@
 body {
   font-family: 'Raleway', sans-serif;
-  background: linear-gradient(to left, #f9f6f2 , #d9d0ec);
+  background: linear-gradient(to bottom, #f9f6f2 , #d9d0ec);
+    height:100vw;
 }
 /*#e6e2f0*/
 
@@ -34,7 +35,7 @@ input {
   padding: 10px 10px 10px 20px;
   box-sizing: border-box;
   color: #430059;
-  color: white;
+  color: #000000;
   border: 3px solid rgba(0, 0, 0, 0);
 }
 
