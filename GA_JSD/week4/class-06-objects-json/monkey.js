@@ -14,3 +14,29 @@ Exercise your monkeys by retrieving their properties and using their methods. Pr
 for retrieving properties (dot notation and brackets).
 
 */
+
+
+// var Monkey = function (name, species, foodsEaten) {
+// 	this.name = name;
+// 	this.name = species;
+// 	this.name = foodsEaten;
+// 	this.sayName = function () {
+// 		console.log(this.name);
+// 	}
+// }
+
+// var monkey = new monkey()
+
+
+
+
+var Monkey = function (name, species) {
+	this.name = name;
+	this.species = species;
+
+	this.foodsEaten = []; {
+		console.log(this.name);
+	}
+}
+
+var monkey = new monkey('boo', 'monkey', 'banana')

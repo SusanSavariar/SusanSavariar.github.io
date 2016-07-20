@@ -32,7 +32,12 @@ var notActuallyJSON = {
 // Use JSONLint to validate the object in the following line; then, edit the object so it passes the validator.
 // There are a total of three errors.
 //
-var eddie = {name:"Eddie Vedder", age:49,};
+// var eddie = {name:"Eddie Vedder", age:49,};
+
+var eddie = {
+    "name": "Eddie Vedder",
+    "age": 49
+};
 
 // [ Step 3 ]
 // We frequently want to turn a JavaScript object into a JSON string, and vice versa.
@@ -77,6 +82,35 @@ var grungeAlbums = {
     }
   ]
 };
+
+var 'grungeAlbumsJSON'
+{
+    "albums": [{
+        "name": "Bleach",
+        "artist": "Nirvana",
+        "unitsSold": 1700000
+    }, {
+        "name": "Nevermind",
+        "artist": "Nirvana",
+        "unitsSold": 30000000
+    }, {
+        "name": "In Utero",
+        "artist": "Nirvana",
+        "unitsSold": 15000000
+    }, {
+        "name": "Ten",
+        "artist": "Pearl Jam",
+        "unitsSold": 10000000
+    }, {
+        "name": "Vs",
+        "artist": "Pearl Jam",
+        "unitsSold": 6100000
+    }, {
+        "name": "Vitalogy",
+        "artist": "Pearl Jam",
+        "unitsSold": 4770000
+    }]
+}
 
 // [ Step 4 ]
 // Imagine that we only had JSON to work with, and wanted to convert it to a JS Object.
