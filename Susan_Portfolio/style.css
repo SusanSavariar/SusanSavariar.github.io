@@ -145,6 +145,22 @@ h3 {
     font-weight: bold;
   text-align: center;*/
 }
+#portfolioTitle h2 {
+  font-size: 30px;
+  /*text-transform: uppercase;*/
+  margin-bottom:10px;
+  letter-spacing: 4px;
+  text-decoration: none;
+  color:#7f8c8d;
+}
+#portfolioTitle h3 {
+  font-size: 20px;
+  /*text-transform: uppercase;*/
+  margin-bottom:20px;
+  letter-spacing: 4px;
+  text-decoration: none;
+  color:#7f8c8d;
+}
 p {
 	font-size: 16px;
 	line-height: 30px;
@@ -264,11 +280,14 @@ section{
 }
 .middle{
 	background: url(https://images.unsplash.com/photo-1447877980755-c3c642760061?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5f1acaf1188af141b4c6a761dbdcf4c3);
-	padding-bottom: 30px;
+	padding-bottom: 60px;
+  height: 20em;
 	background-attachment: fixed;
 }
 .lower{
 	background: url(https://images.unsplash.com/photo-1467646208740-18124b37eb58?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=277c6a2c9e53029109b25336ecb744d7);
+  padding-bottom: 60px;
+  height: 15em;
 }
 .bottom{
 	background:#26292C;
