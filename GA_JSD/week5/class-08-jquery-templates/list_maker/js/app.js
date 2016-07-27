@@ -11,5 +11,11 @@
 
 // similar to window.onload
 $(document).ready(function () {
-	// YOUR CODE HERE
+	$(#form).submit(function (event)) {
+		event.preventDefault();
+	}
+
+
+
+
 })

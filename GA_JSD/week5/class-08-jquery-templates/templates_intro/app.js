@@ -46,3 +46,12 @@ var presidentObject = {
         'Obama',
     ]
 }
+
+presidentObject.presidents.forEach(function (president) {
+    $('jquery-list').append('<option>')+president+ '</option>'
+})
+
+
+
+
+
