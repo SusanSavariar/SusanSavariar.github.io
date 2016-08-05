@@ -99,6 +99,7 @@ a.btn {
  .fa-chevron-down {
 	color: white;
 	opacity: 0.2px;
+  padding:250px 25px;
 }
   .btn-react {
     /*background-color: #f5f5f5;*/
@@ -288,8 +289,8 @@ section{
 	background-attachment:fixed;
 }
 .lower{
-	/*background: url(https://images.unsplash.com/photo-1467646208740-18124b37eb58?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=277c6a2c9e53029109b25336ecb744d7);*/
-    background: url(https://images.unsplash.com/photo-1454532256047-6f79947885b9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=695e97de233b13d1d37f2262dbca8c6d);
+	background: url(https://images.unsplash.com/photo-1467646208740-18124b37eb58?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=277c6a2c9e53029109b25336ecb744d7);
+    /*background: url(https://images.unsplash.com/photo-1454532256047-6f79947885b9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=695e97de233b13d1d37f2262dbca8c6d);*/
 
   padding-bottom: 60px;
   height: 15em;
@@ -298,9 +299,9 @@ section{
 	background:#26292C;
 }
 
-/*.overlay{
+.overlay{
 	position: relative;
-  	z-index: 1;
+  	z-index: -1;
 }
 .overlay:after{
 	background:rgba(0, 0, 0, 0.6);
@@ -313,7 +314,7 @@ section{
 	right: 0;
 	left: 0;
 	bottom: 0;
-}*/
+}
 
 /*social*/
 /*
