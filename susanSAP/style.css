@@ -41,7 +41,8 @@ footer {
 	margin: 40px 0px;
 }
 a {
-	text-decoration: none;
+	/*text-decoration: none;*/
+	color: #4B4C4D;
 }
 a:hover {
 	color: #42f4e8
