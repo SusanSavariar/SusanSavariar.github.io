@@ -40,3 +40,6 @@ li {
 footer {
 	margin: 40px 0px;
 }
+a {
+	text-decoration: none;
+}
