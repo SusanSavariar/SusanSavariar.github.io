@@ -29,7 +29,7 @@ h2 {
     line-height: 18px;
     font-style: normal;
     font-weight: 400;
-    color: green;
+    color: #42f4e8;
     margin: 0 0 6px;
 }
 li {
@@ -42,4 +42,17 @@ footer {
 }
 a {
 	text-decoration: none;
+}
+a:hover {
+	color: #42f4e8
+
+}
+#SusanImg {
+	position: relative;
+	left: 80px;
+	/*text-align: right; 
+	padding: 70px;
+	height: auto;*/
+    /*max-width: 100%;
+    margin: 0 auto;*/
 }
