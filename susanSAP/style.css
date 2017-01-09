@@ -4,7 +4,6 @@
 }
 
 header {
-	/*margin: 80px 0px;*/
 	background: #f6f6f6;
 	padding: 40px 100px;
 
@@ -88,4 +87,9 @@ a:hover {
 }
 #SusanImg {
 
+}
+@media (max-width: 600px) {
+	header {
+		padding: 20px 5vw;
+	}
 }
