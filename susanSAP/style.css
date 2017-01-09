@@ -114,24 +114,25 @@ a:hover {
 		text-align: center;
 	}
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
 	body {
-		font-size: 20px;
-		line-height: 28px;
+		font-size: 24px;
+		line-height: 36px;
 	}
 	header {
-		padding: 50px 150px;
+		padding: 50px 10vw;
 	}
 	h1 {
-	    font-size: 60px;
-	    line-height: 74px;
+	    font-size: 72px;
+	    line-height: 90px;
 	}
 	h2 {
-		font-size: 20px;
-		line-height: 28px;
+		font-size: 24px;
+		line-height: 36px;
 	}
 	#container {
-		padding: 0 150px;
+		padding: 0 10vw;
+		max-width: 1200px;
 	}
 	
 }
