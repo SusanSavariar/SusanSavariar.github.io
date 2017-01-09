@@ -107,6 +107,9 @@ a:hover {
 		margin: 0 auto;
 		max-width: 80vw;
 	}
+	#SusanImg img {
+		max-width: 100%;
+	}
 	#links {
 		text-align: center;
 	}
