@@ -80,7 +80,7 @@ a:hover {
 #container {
 	display: flex;
 	max-width: 900px;
-	margin: 0 100px;
+	padding: 0 100px;
 }
 #content{
 	flex-grow: 1;
@@ -92,4 +92,46 @@ a:hover {
 	header {
 		padding: 20px 5vw;
 	}
+	header img {
+		max-width: 80vw;
+	}
+	h1 {
+	    font-size: 28px;
+	    line-height: 36px;
+	}
+	#container {
+		flex-direction: column-reverse;
+		padding: 0 5vw;
+	}
+	#SusanImg {
+		margin: 0 auto;
+		max-width: 80vw;
+	}
+	#links {
+		text-align: center;
+	}
+	.copyright {
+		text-align: center;
+	}
+}
+@media (min-width: 1200px) {
+	body {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	header {
+		padding: 50px 150px;
+	}
+	h1 {
+	    font-size: 60px;
+	    line-height: 74px;
+	}
+	h2 {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	#container {
+		padding: 0 150px;
+	}
+	
 }
